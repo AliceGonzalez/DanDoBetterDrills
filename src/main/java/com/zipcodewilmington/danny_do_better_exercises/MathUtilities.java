@@ -211,7 +211,8 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Short multiply(short multiplicand, short multiplier) {
-        return null;
+
+        return (short) (multiplicand * multiplier);
     }
     /**
      * @param multiplicand value to be multiplied
