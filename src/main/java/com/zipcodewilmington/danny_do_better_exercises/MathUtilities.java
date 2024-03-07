@@ -220,7 +220,8 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Byte multiply(byte multiplicand, byte multiplier) {
-        return null;
+        Byte result = (byte) (multiplicand * multiplier);
+        return result;
     }
 
     /**
