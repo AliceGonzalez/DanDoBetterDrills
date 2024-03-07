@@ -50,7 +50,8 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Float add(float baseValue, float difference) {
-        return null;
+        Float result = (float) (baseValue + difference);
+        return result;
     }
 
     /**
