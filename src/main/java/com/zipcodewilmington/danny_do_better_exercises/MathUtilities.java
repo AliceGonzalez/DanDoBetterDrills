@@ -240,6 +240,7 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Double multiply(double multiplicand, double multiplier) {
-        return null;
+        Double result = (double) multiplicand * multiplier;
+        return result;
     }
 }
