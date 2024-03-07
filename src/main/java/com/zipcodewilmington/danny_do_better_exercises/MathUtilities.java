@@ -40,7 +40,8 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Byte add(byte baseValue, byte difference) {
-        return null;
+        Byte result = (byte) (baseValue + difference);
+        return result;
     }
 
     /**
