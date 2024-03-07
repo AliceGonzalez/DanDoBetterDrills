@@ -109,7 +109,8 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Float subtract(float baseValue, float difference) {
-        return null;
+        Float result = (float) baseValue - difference;
+        return result;
     }
 
     /**
