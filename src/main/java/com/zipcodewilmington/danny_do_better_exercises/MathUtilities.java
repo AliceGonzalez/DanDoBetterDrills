@@ -201,7 +201,8 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Long multiply(long multiplicand, long multiplier) {
-        return null;
+        Long result = (long) multiplicand * multiplier;
+        return result;
     }
 
     /**
