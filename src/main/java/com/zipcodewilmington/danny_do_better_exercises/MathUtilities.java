@@ -160,7 +160,8 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Byte divide(byte dividend, byte divisor) {
-        return null;
+
+        return (byte) (dividend / divisor);
     }
 
     /**
