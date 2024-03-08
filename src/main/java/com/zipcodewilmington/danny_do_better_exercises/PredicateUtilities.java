@@ -60,7 +60,7 @@ public class PredicateUtilities {
      * @return false
      */
     public Boolean returnFalse() {
-        return null;
+        return false;
     }
 
 }
