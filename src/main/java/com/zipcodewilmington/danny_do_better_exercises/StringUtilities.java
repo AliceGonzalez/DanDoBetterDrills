@@ -18,7 +18,8 @@ public class StringUtilities {
      * @return the concatenation of two strings, `firstSegment`, and `secondSegment`
      */
     public static String concatenation(String firstSegment, String secondSegment){
-        return null;
+        String result = firstSegment + secondSegment;
+        return result;
     }
 
     /**
