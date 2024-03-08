@@ -37,7 +37,8 @@ public class StringUtilities {
      * @return the first 3 characters of `input`
      */
     public static String getPrefix(String input){
-        return null;
+        String results = input.substring(0,3);
+        return results;
     }
 
     /**
