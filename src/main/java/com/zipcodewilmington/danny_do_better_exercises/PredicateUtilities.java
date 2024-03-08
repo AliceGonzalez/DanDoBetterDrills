@@ -18,7 +18,12 @@ public class PredicateUtilities {
      * @param y
      * @return true if `x` is less than `y`
      */
-    public Boolean isLessThan(int x, int y) { return null}
+    public Boolean isLessThan(int x, int y) {
+        if(x < y){
+            return true;
+        }
+        return false;
+    }
 
     /**
      * @param x
