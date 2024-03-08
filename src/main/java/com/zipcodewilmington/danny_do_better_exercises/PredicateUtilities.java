@@ -49,12 +49,11 @@ public class PredicateUtilities {
         return false;
     }
 
-
     /**
      * @return true
      */
     public Boolean returnTrue() {
-        return null;
+        return true;
     }
 
     /**
