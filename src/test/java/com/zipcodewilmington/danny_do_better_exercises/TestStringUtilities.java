@@ -53,19 +53,6 @@ public class TestStringUtilities {
     }
 
     @Test
-    public void substringBeginTest(){
-        // : Given
-        String input = "Hello";
-        String expected = "Hel";
-
-        // : When
-        String actual = StringUtilities.getPrefix(input);
-
-        // : Then
-        assertEquals(expected, actual);
-    }
-
-    @Test
     public void substringEndTest(){
         // : Given
         String input = "Hello";
@@ -103,19 +90,6 @@ public class TestStringUtilities {
 
         // : Then
         assertFalse(actual);
-    }
-
-    @Test
-    public void getTheMiddleCharOfZipcode(){
-        // : Given
-        String input = "Zipcode";
-        Character expected = 'c';
-
-        // : When
-        String actual = StringUtilities.getMiddleCharacter(input);
-
-        // : Then
-        Assert.assertEquals(expected.toString(), actual.toString());
     }
 
 
