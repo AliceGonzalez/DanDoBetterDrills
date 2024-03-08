@@ -78,8 +78,15 @@ public class StringUtilities {
      * @param spaceDelimitedString a string, representative of a sentence, containing spaces
      * @return the first sequence of characters
      */
-    public static String getFirstWord(String spaceDelimitedString){
-        return null;
+    public static String getFirstWord(String spaceDelimitedString) {
+        String[] words = spaceDelimitedString.split("\\s+");
+
+        if (words.length > 0) {
+            String firstWord = words[0];
+            return firstWord;
+        } else {
+            return "";
+        }
     }
 
     /**
